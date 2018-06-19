@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const webSocket = new WebSocket('ws://localhost:8888');
+axios.get('http://127.0.0.1:8080/news')
 
 .then((response) =>{
 
@@ -19,6 +19,6 @@ const webSocket = new WebSocket('ws://localhost:8888');
 
    }
 
-   document.getElementById("news").innerHTML = news
+   document.getElementById("filenews").innerHTML = news
    
 })
