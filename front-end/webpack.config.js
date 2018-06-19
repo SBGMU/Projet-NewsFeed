@@ -25,5 +25,5 @@ module.exports = {
         ],
         extensions: [".js", ".json", ".jsx", ".css"],
     },
-    watch :true
+    watch: true
 }
